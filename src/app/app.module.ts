@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { CupcakeCardComponent } from './cupcake-card/cupcake-card.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CupcakeCardComponent
+    CupcakeCardComponent,
+    BemVindoComponent
   ],
   imports: [
     BrowserModule,
