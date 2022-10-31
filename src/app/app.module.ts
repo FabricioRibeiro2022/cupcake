@@ -3,20 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CupcakeCardComponent } from './cupcake-card/cupcake-card.component';
-
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
+import { HomeComponent } from './home/home.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { CardapioComponent } from './cardapio/cardapio.component';
+import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CupcakeCardComponent,
-    BemVindoComponent
+    BemVindoComponent,
+    HomeComponent,
+    CadastroComponent,
+    CardapioComponent,
+    SobreNosComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule,
     AppRoutingModule
   ],
   providers: [],
